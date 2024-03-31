@@ -93,6 +93,9 @@ const Home = () => {
 
   return (
     <div style={{ display: "flex", justifyContent: 'center', height: '90vh', alignItems: 'center', marginTop: '5vh', fontFamily: 'Raleway' }}>
+       <div style={{textAlign:'center', margin:"auto"} }>
+        <h3>Drag the element from right sidebar and drop below</h3>
+       </div>
       <div ref={drop}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
